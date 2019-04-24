@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>System Environment on PILM Bioinformatics KnowledgeBase</title>
+    <link>https://pilm-bioinformatics.github.io/knowledgebase/environment/</link>
+    <description>Recent content in System Environment on PILM Bioinformatics KnowledgeBase</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>The Hugo Documents are copyright © gethugothemes 2018.</copyright>
+    <lastBuildDate>Sat, 29 Dec 2018 11:02:05 +0600</lastBuildDate>
+    
+	<atom:link href="https://pilm-bioinformatics.github.io/knowledgebase/environment/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>conda</title>
+      <link>https://pilm-bioinformatics.github.io/knowledgebase/environment/conda/</link>
+      <pubDate>Sat, 29 Dec 2018 11:02:05 +0600</pubDate>
+      
+      <guid>https://pilm-bioinformatics.github.io/knowledgebase/environment/conda/</guid>
+      <description>Set up your conda For macOS
+wget https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-x86_64.sh -O ~/miniconda.sh bash ~/miniconda.sh -b -p $HOME/miniconda export PATH=&amp;quot;$HOME/miniconda/bin:$PATH&amp;quot;  For Linux
+wget https://repo.continuum.io/miniconda/Miniconda3-3.7.0-Linux-x86_64.sh -O ~/miniconda.sh bash ~/miniconda.sh -b -p $HOME/miniconda export PATH=&amp;quot;$HOME/miniconda/bin:$PATH&amp;quot;  Configure proper channels
+conda config --add channels defaults conda config --add channels bioconda conda config --add channels conda-forge  Create a conda environment For instance, if you are interested on genome aligners, you can create an isolated environment with the following tools:</description>
+    </item>
+    
+  </channel>
+</rss>

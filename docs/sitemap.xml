@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://pilm-bioinformatics.github.io/knowledgebase/analysis/rnaseq/</loc>
+    <lastmod>2018-12-29T11:02:05+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pilm-bioinformatics.github.io/knowledgebase/environment/conda/</loc>
+    <lastmod>2018-12-29T11:02:05+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pilm-bioinformatics.github.io/knowledgebase/analysis/</loc>
+    <lastmod>2018-12-29T11:02:05+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pilm-bioinformatics.github.io/knowledgebase/</loc>
+    <lastmod>2018-12-29T11:02:05+06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://pilm-bioinformatics.github.io/knowledgebase/environment/</loc>
+    <lastmod>2018-12-29T11:02:05+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pilm-bioinformatics.github.io/knowledgebase/faq/</loc>
+    <lastmod>2018-12-27T09:10:27+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pilm-bioinformatics.github.io/knowledgebase/faq/_index.fr/</loc>
+    <lastmod>2018-12-27T09:10:27+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pilm-bioinformatics.github.io/knowledgebase/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://pilm-bioinformatics.github.io/knowledgebase/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+</urlset>
