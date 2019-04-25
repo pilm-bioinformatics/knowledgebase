@@ -3,7 +3,7 @@ theme = "dot"
 publishDir = "docs"
 
 [params]
-primaryColor = "#02007e"
+primaryColor = "#004b7e"
 secondaryColor = "#f9f9f9"
 textColor = "#636363"
 textColorDark = "#242738"
@@ -19,7 +19,7 @@ whiteColor = "#ffffff"
   title = "PILM Bioinformatics KnowledgeBase"
   dateFormat = "2 January 2006"
   home = "Home"
-  logo = "Dot"
+  logo = "PILM-MIT"
   copyright = "The Hugo Documents are copyright © gethugothemes 2018."
 
     # navigation
