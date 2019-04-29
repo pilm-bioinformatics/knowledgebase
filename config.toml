@@ -8,6 +8,7 @@ secondaryColor = "#f9f9f9"
 textColor = "#636363"
 textColorDark = "#242738"
 whiteColor = "#ffffff"
+pricateURL = "https://github.mit.edu/pages/PILM-bioinformatics/knowledgebase/"
 
 [Languages]
 
@@ -20,7 +21,7 @@ whiteColor = "#ffffff"
   dateFormat = "2 January 2006"
   home = "Home"
   logo = "PILM-MIT"
-  copyright = "The Hugo Documents are copyright © gethugothemes 2018."
+  copyright = "The Hugo Documents are copyright © gethugothemes 2018 - Content © PILM."
 
     # navigation
     [Languages.en.menu]
@@ -31,32 +32,37 @@ whiteColor = "#ffffff"
         url = "/faq"
         
       [[Languages.en.menu.main]]
-        weight = 2
+        weight = 5
         name = "contact"
         url = "https://github.mit.edu/PILM-bioinformatics/support/issues/new"
         
       [[Languages.en.menu.main]]
-        weight = 2
-        name = "pages"
+        weight = 3
+        name = "Private-Space"
+        url = "https://github.mit.edu/pages/PILM-bioinformatics/knowledgebase/"
+        
+      [[Languages.en.menu.main]]
+        weight = 4
+        name = "Documents"
         url = "/pages"
         hasChildren = true
 
           [[Languages.en.menu.main]]
-          parent = "pages"
+          parent = "Documents"
           name = "Environment"
           URL = "/environment"
           weight = 1
 
           [[Languages.en.menu.main]]
-          parent = "pages"
+          parent = "Documents"
           name = "Analysis Type"
           URL = "/analysis"
           weight = 2
 
     # banner
     [Languages.en.params.banner]
-      title = "Knowledge base"
-      description = "Find advice and answers or get in touch"
+      title = "Knowledge-Base"
+      description = "Find advice and answers or get in touch. For PILM specific topics go to the PRIVATE SPACE."
       image = "images/banner.jpg"
       placeholder = "Have a question? Just ask here or enter terms"
 
@@ -79,5 +85,5 @@ whiteColor = "#ffffff"
 
     [[Languages.en.socialIcon]]
       icon = "ti-twitter-alt"
-      URL = "@lopantano"
+      URL = "https://twitter.com/lopantano"
       

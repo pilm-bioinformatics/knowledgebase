@@ -1,13 +1,17 @@
 ---
 title: "conda"
-date: 2018-12-29T11:02:05+06:00
+date: 2019-04-29T15:23:05-06:00
 type: "post"
 weight: 1
 ---
 
+### Use pre-installed environment in eofe5
+
+Visit the {{< publiclink src="environment/conda/" title="private document" >}} to know where to connect.
+
 ### Set up your conda
 
-For macOS
+For macOSX
 
 ```bash
 wget https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-x86_64.sh -O ~/miniconda.sh
@@ -25,7 +29,7 @@ export PATH="$HOME/miniconda/bin:$PATH"
 
 Configure proper channels
 
-```
+```bash
 conda config --add channels defaults
 conda config --add channels bioconda
 conda config --add channels conda-forge
