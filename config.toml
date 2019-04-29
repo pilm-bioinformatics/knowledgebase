@@ -30,9 +30,14 @@ pricateURL = "https://github.mit.edu/pages/PILM-bioinformatics/knowledgebase/"
         weight = 2
         name = "Faq"
         url = "/faq"
-        
+      
       [[Languages.en.menu.main]]
         weight = 5
+        name = "Newsletter"
+        url = "https://github.mit.edu/pages/PILM-bioinformatics/secure-newsletters"
+        
+      [[Languages.en.menu.main]]
+        weight = 6
         name = "contact"
         url = "https://github.mit.edu/PILM-bioinformatics/support/issues/new"
         
