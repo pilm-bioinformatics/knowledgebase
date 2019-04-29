@@ -6,20 +6,11 @@
     <description>Recent content in Frequently Asked Questions on PILM Bioinformatics KnowledgeBase</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>The Hugo Documents are copyright © gethugothemes 2018.</copyright>
+    <copyright>The Hugo Documents are copyright © gethugothemes 2018 - Content © PILM.</copyright>
     <lastBuildDate>Thu, 27 Dec 2018 09:10:27 +0600</lastBuildDate>
     
 	<atom:link href="https://pilm-bioinformatics.github.io/knowledgebase/faq/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Questions fréquemment posées</title>
-      <link>https://pilm-bioinformatics.github.io/knowledgebase/faq/_index.fr/</link>
-      <pubDate>Thu, 27 Dec 2018 09:10:27 +0600</pubDate>
-      
-      <guid>https://pilm-bioinformatics.github.io/knowledgebase/faq/_index.fr/</guid>
-      <description></description>
-    </item>
     
   </channel>
 </rss>
