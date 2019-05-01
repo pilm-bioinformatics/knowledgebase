@@ -67,7 +67,7 @@
       
       
       <li class="nav-item">
-          <a class="nav-link text-dark" href="https://github.mit.edu/PILM-bioinformatics/support/issues/new">contact</a>
+          <a class="nav-link text-dark" href="https://github.mit.edu/pages/PILM-bioinformatics/knowledgebase/">Private-Space</a>
       </li>
       
       
@@ -75,7 +75,7 @@
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle text-dark" href="#" role="button" data-toggle="dropdown" aria-haspopup="true"
           aria-expanded="false">
-          pages
+          Documents
         </a>
         <div class="dropdown-menu" >
           
@@ -83,7 +83,21 @@
           
           <a class="dropdown-item" href="/knowledgebase/analysis">Analysis Type</a>
           
+          <a class="dropdown-item" href="/knowledgebase/resources">Resources</a>
+          
         </div>
+      </li>
+      
+      
+      
+      <li class="nav-item">
+          <a class="nav-link text-dark" href="https://github.mit.edu/pages/PILM-bioinformatics/secure-newsletters">Newsletter</a>
+      </li>
+      
+      
+      
+      <li class="nav-item">
+          <a class="nav-link text-dark" href="https://github.mit.edu/PILM-bioinformatics/support/issues/new">contact</a>
       </li>
       
       
@@ -107,6 +121,12 @@
             
             <nav class="sidebar-menu">
               <ul class="list-styled">
+            <li class=""><a href="/knowledgebase/resources/">Resources</a>
+              <ul class="">
+            <li class=""><a href="/knowledgebase/resources/diy/">DIY:Online tutorials</a>
+            </li></ul>
+              
+            </li>
             <li class=""><a href="/knowledgebase/analysis/">Analysis Type</a>
               <ul class="">
             <li class=""><a href="/knowledgebase/analysis/rnaseq/">bulk RNAseq</a>
@@ -120,10 +140,6 @@
               
             </li>
             <li class=""><a href="/knowledgebase/faq/">Frequently Asked Questions</a>
-              <ul class="">
-            <li class=""><a href="/knowledgebase/faq/_index.fr/">Questions fréquemment posées</a>
-            </li></ul>
-              
             </li></ul>
             </nav>
 
@@ -135,9 +151,14 @@
             <h2>conda</h2>
             
 
+<h3 id="use-pre-installed-environment-in-eofe5">Use pre-installed environment in eofe5</h3>
+
+<p>Visit the   <a href="environment/conda/">private document</a>
+ to know where to connect.</p>
+
 <h3 id="set-up-your-conda">Set up your conda</h3>
 
-<p>For macOS</p>
+<p>For macOSX</p>
 
 <pre><code class="language-bash">wget https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-x86_64.sh -O ~/miniconda.sh
 bash ~/miniconda.sh -b -p $HOME/miniconda
@@ -153,7 +174,7 @@ export PATH=&quot;$HOME/miniconda/bin:$PATH&quot;
 
 <p>Configure proper channels</p>
 
-<pre><code>conda config --add channels defaults
+<pre><code class="language-bash">conda config --add channels defaults
 conda config --add channels bioconda
 conda config --add channels conda-forge
 </code></pre>
@@ -172,7 +193,7 @@ conda activate aligners
 <pre><code class="language-bash">conda deactivate
 </code></pre>
 
-            <p class="post-meta border-bottom pb-3 mb-0">Updated on 29 Dec 2018</p><nav class="pagination mt-3"><a class="nav nav-prev" href="/knowledgebase/environment/" title="System Environment"><i class="ti-arrow-left mr-2"></i>System Environment</a>
+            <p class="post-meta border-bottom pb-3 mb-0">Updated on 29 Apr 2019</p><nav class="pagination mt-3"><a class="nav nav-prev" href="/knowledgebase/environment/" title="System Environment"><i class="ti-arrow-left mr-2"></i>System Environment</a>
             <a class="nav nav-next" href="/knowledgebase/faq/" title="Frequently Asked Questions">Frequently Asked Questions<i class="ti-arrow-right ml-2"></i></a>
             </nav></div>
       </div>
@@ -186,12 +207,12 @@ conda activate aligners
   <div class="container">
     <div class="row">
       <div class="col-md-8 text-md-left text-center">
-        <p>The Hugo Documents are copyright © gethugothemes 2018.</p> 
+        <p>The Hugo Documents are copyright © gethugothemes 2018 - Content © PILM.</p> 
       </div>
       <div class="col-md-4 text-md-right text-center">
         <ul class="list-inline mb-3">
           
-          <li class="list-inline-item"><a class="text-color d-inline-block p-2" href="https://pilm-bioinformatics.github.io/knowledgebase/@lopantano"><i class="ti-twitter-alt"></i></a></li>
+          <li class="list-inline-item"><a class="text-color d-inline-block p-2" href="https://twitter.com/lopantano"><i class="ti-twitter-alt"></i></a></li>
           
         </ul>
       </div>

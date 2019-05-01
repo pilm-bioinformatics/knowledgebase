@@ -63,7 +63,12 @@ pricateURL = "https://github.mit.edu/pages/PILM-bioinformatics/knowledgebase/"
           name = "Analysis Type"
           URL = "/analysis"
           weight = 2
-
+          
+          [[Languages.en.menu.main]]
+          parent = "Documents"
+          name = "Resources"
+          URL = "/resources"
+          weight = 3
     # banner
     [Languages.en.params.banner]
       title = "Knowledge-Base"

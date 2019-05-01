@@ -1,7 +1,6 @@
-<!DOCTYPE html>
-<html lang="en-us"><head>
+<head>
   <meta charset="utf-8">
-  <title>System Environment</title>
+  <title>DIY:Online tutorials</title>
 
   <meta name="generator" content="Hugo 0.55.3" />
 
@@ -42,12 +41,12 @@
   <!--Favicon-->
   <link rel="icon" href="https://pilm-bioinformatics.github.io/knowledgebase/images/favicon.png" type="image/x-icon">
 
-</head><body>
-        
-        <!-- navigation -->
-        <header class="shadow-bottom sticky-top bg-white">
-            <div class="container">
-                <nav class="navbar navbar-expand-lg navbar-light">
+</head>
+
+<!-- navigation -->
+<header class="shadow-bottom sticky-top bg-white">
+  <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light">
   <a class="navbar-brand" href="https://pilm-bioinformatics.github.io/knowledgebase/">PILM-MIT</a>
   <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation"
     aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
@@ -109,93 +108,85 @@
     </ul>
   </div>
 </nav>
-            </div>
-        </header>
-        <!-- /navigation -->
-        
-        <div id="content">
+  </div>
+</header>
+<!-- /navigation -->
 
-  <!-- page title -->
-  <section class="section bg-dark">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 mx-auto text-center">
-           <h1 class="text-white mb-4">Knowledge-Base</h1> 
-           <input id="search" class="form-control" placeholder="Have a question? Just ask here or enter terms"> 
-            <!-- Javascript -->
-            <script>
-              $(function() {
-                var projects = [
-                  
-                    {
-                      value: "conda",
-                      label: "conda",
-                      url:"https:\/\/pilm-bioinformatics.github.io\/knowledgebase\/environment\/conda\/"
-                    },
-                  
-                ];
-                $( "#search" ).autocomplete({
-                    minLength: 0,
-                    source: projects,
-                    focus: function( event, ui ) {
-                      $( "#search" ).val( ui.item.label );
-                        return false;
-                    },
-                    select: function( event, ui ) {
-                      $( "#search" ).val( ui.item.label );
-                      $( "#project-id" ).val( ui.item.value );
-                      return false;
-                    }
-                })
-                .data( "ui-autocomplete" )._renderItem = function( ul, item ) {
-                  return $( "<li>" )
-                  .append( "<a href=" + item.url + " + \" &quot;\" +  >" + item.label + "</a>" )
-                  .appendTo( ul );
-                };
-              });
-            </script>
+
+<section class="single pt-5 bg-gray">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-3">
+        <div class="p-4 bg-white sticky-top top-100">
+            
+            <nav class="sidebar-menu">
+              <ul class="list-styled">
+            <li class="parent d-block "><a href="/knowledgebase/resources/">Resources</a>
+              <ul class="sub-menu">
+            <li class=" active "><a href="/knowledgebase/resources/diy/">DIY:Online tutorials</a>
+            </li></ul>
+              
+            </li>
+            <li class=""><a href="/knowledgebase/analysis/">Analysis Type</a>
+              <ul class="">
+            <li class=""><a href="/knowledgebase/analysis/rnaseq/">bulk RNAseq</a>
+            </li></ul>
+              
+            </li>
+            <li class=""><a href="/knowledgebase/environment/">System Environment</a>
+              <ul class="">
+            <li class=""><a href="/knowledgebase/environment/conda/">conda</a>
+            </li></ul>
+              
+            </li>
+            <li class=""><a href="/knowledgebase/faq/">Frequently Asked Questions</a>
+            </li></ul>
+            </nav>
+
+            
         </div>
       </div>
-    </div>
-  </section>
-  <!-- /page title -->
+      <div class="col-lg-9">
+        <div class="p-5 bg-white">
+            <h2>DIY:Online tutorials</h2>
+            
 
-  <!-- details page -->
-  <section class="single section bg-gray pb-0">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-3">
-          <div class="mb-5 bg-white p-4 sticky-top">
-            <a href="https://pilm-bioinformatics.github.io/knowledgebase/environment/">
-              <h4 class="mb-4">System Environment</h4>
-            </a>
-            <ul class="list-styled">
-              
-              <li><a href="https://pilm-bioinformatics.github.io/knowledgebase/environment/conda/">conda</a></li>
-              
-            </ul>
-          </div>
-        </div>
-        <div class="col-lg-9">
-          <div class="p-5 bg-white">
-              <h2>System Environment</h2>
-              <div class="bg-gray p-4">
-                  <h3 class="mt-0">Article</h3>
-                  <ul class="list-unstyled">
-                    
-                    <li><a href="https://pilm-bioinformatics.github.io/knowledgebase/environment/conda/">conda</a></li>
-                    
-                  </ul>
-              </div>
-          </div>
-        </div>
+<p>All these materials are the effort of great people working hard to make their work available to everybody.
+If you like any of you see below, please send them an email thanking them for their work.</p>
+
+<ol>
+<li><a href="http://bioinformatics.sph.harvard.edu/training/">Training team at Harvard Chan Bioinformatics Core</a>: <strong>hbctraining(at)hsph.harvard.edu</strong></li>
+<li>Jeff Oliver: <strong>jcoliver(at)email.arizona.edu</strong></li>
+</ol>
+
+<h2 id="basics">Basics</h2>
+
+<ol>
+<li><p><a href="https://github.com/hbctraining/Intro-to-Shell">Introduction to Shell</a> - training team at Harvard Chan Bioinformatics Core.</p></li>
+
+<li><p><a href="https://github.com/hbctraining/Intro-to-R">Introduction to R</a> - training team at Harvard Chan Bioinformatics Core.</p></li>
+
+<li><p><a href="https://jcoliver.github.io/learn-r/012-intro-tidyverse.html">Introduction to tidyverse</a> - Jeff Oliver</p></li>
+</ol>
+
+<h2 id="analysis">Analysis</h2>
+
+<ol>
+<li><p><a href="https://github.com/hbctraining/rnaseq_overview">RNAseq overview</a> - training team at Harvard Chan Bioinformatics Core.</p></li>
+
+<li><p><a href="https://github.com/hbctraining/DGE_workshop_salmon">RNAseq with salmon</a> - training team at Harvard Chan Bioinformatics Core.</p></li>
+</ol>
+
+            <p class="post-meta border-bottom pb-3 mb-0">Updated on 30 Apr 2019</p><nav class="pagination mt-3"><a class="nav nav-prev" href="/knowledgebase/resources/" title="Resources"><i class="ti-arrow-left mr-2"></i>Resources</a>
+            <a class="nav nav-next" href="/knowledgebase/analysis/" title="Analysis Type">Analysis Type<i class="ti-arrow-right ml-2"></i></a>
+            </nav></div>
       </div>
     </div>
-  </section>
-  <!-- /details page -->
+  </div>
+</section>
 
 
-        </div><!-- footer -->
+<!-- footer -->
 <footer class="section bg-gray pb-0">
   <div class="container">
     <div class="row">
@@ -222,5 +213,4 @@
 
 <!-- Main Script -->
 
-<script src="https://pilm-bioinformatics.github.io/knowledgebase/js/script.min.js"></script></body>
-</html>
+<script src="https://pilm-bioinformatics.github.io/knowledgebase/js/script.min.js"></script>
