@@ -7,7 +7,7 @@ weight: 1
 
 ### Use pre-installed environment in eofe5
 
-Visit the {{< publiclink src="environment/conda/" title="private document" >}} to know where to connect.
+Visit the {{% publiclink src="environment/conda/" title="private document" %}} to know where to connect.
 
 ### Set up your conda
 

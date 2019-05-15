@@ -8,7 +8,7 @@ secondaryColor = "#f9f9f9"
 textColor = "#636363"
 textColorDark = "#242738"
 whiteColor = "#ffffff"
-pricateURL = "https://github.mit.edu/pages/PILM-bioinformatics/knowledgebase/"
+privateURL = "https://github.mit.edu/pages/PILM-bioinformatics/knowledgebase/"
 
 [Languages]
 
