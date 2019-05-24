@@ -1,6 +1,6 @@
 <head>
   <meta charset="utf-8">
-  <title>bulk RNAseq</title>
+  <title>DIY:PILM tutorials</title>
 
   <meta name="generator" content="Hugo 0.55.3" />
 
@@ -121,17 +121,17 @@
             
             <nav class="sidebar-menu">
               <ul class="list-styled">
-            <li class=""><a href="/knowledgebase/resources/">Resources</a>
-              <ul class="">
+            <li class="parent d-block "><a href="/knowledgebase/resources/">Resources</a>
+              <ul class="sub-menu">
             <li class=""><a href="/knowledgebase/resources/diy/">DIY:Online tutorials</a>
             </li>
-            <li class=""><a href="/knowledgebase/resources/diyours/">DIY:PILM tutorials</a>
+            <li class=" active "><a href="/knowledgebase/resources/diyours/">DIY:PILM tutorials</a>
             </li></ul>
               
             </li>
-            <li class="parent d-block "><a href="/knowledgebase/analysis/">Analysis Type</a>
-              <ul class="sub-menu">
-            <li class=" active "><a href="/knowledgebase/analysis/rnaseq/">bulk RNAseq</a>
+            <li class=""><a href="/knowledgebase/analysis/">Analysis Type</a>
+              <ul class="">
+            <li class=""><a href="/knowledgebase/analysis/rnaseq/">bulk RNAseq</a>
             </li></ul>
               
             </li>
@@ -150,69 +150,23 @@
       </div>
       <div class="col-lg-9">
         <div class="p-5 bg-white">
-            <h2>bulk RNAseq</h2>
+            <h2>DIY:PILM tutorials</h2>
             
 
-<h3 id="fast-rnaseq-pipeline">Fast RNAseq pipeline</h3>
+<p>We develop some tutorials to fit the PILM community, here you will find a list:</p>
 
-<p>Here we show how to run a NextFlow pipeline for RNAseq from species with well
-annotated genes, like human or mouse.</p>
-
-<h4 id="raw-data">Raw data</h4>
-
-<p>This is an example using a public dataset.</p>
-
-<p>We got the following links from <a href="https://ewels.github.io/sra-explorer/">sra-explore</a>, a web-based app
-that help you to find public datasets and provides a script to download the data.</p>
-
-<p>We use the following files:</p>
-
-<pre><code class="language-bash">#!/usr/bin/env bash
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR307/SRR307897/SRR307897_1.fastq.gz -o SRR307897_GSM758559_CshlLong_RnaSeq_GM12878_cell_longPolyA_1.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR307/SRR307897/SRR307897_2.fastq.gz -o SRR307897_GSM758559_CshlLong_RnaSeq_GM12878_cell_longPolyA_2.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR307/SRR307912/SRR307912_1.fastq.gz -o SRR307912_GSM758566_CshlLong_RnaSeq_H1-hESC_cell_longPolyA_1.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR307/SRR307912/SRR307912_2.fastq.gz -o SRR307912_GSM758566_CshlLong_RnaSeq_H1-hESC_cell_longPolyA_2.fastq.gz
-</code></pre>
+<h2 id="basics">Basics -</h2>
 
 <ul>
-<li>create a folder <code>raw</code></li>
-<li>type <code>cd raw</code></li>
-<li>copy that into a file called <code>download.sh</code></li>
-<li>type <code>bash download.sh</code>.</li>
+<li><a href="https://pilm-bioinformatics.github.io/pilmbc103-remote-storage-and-computing/">PILMBC103 Best practices on remote storage and computing systems</a></li>
 </ul>
 
-<p>Wait until is finished, then come back to parent folder <code>cd ..</code>.</p>
+<h2 id="intermediate">Intermediate -</h2>
 
-<h4 id="annotation">Annotation</h4>
+<h2 id="advance">Advance -</h2>
 
-<p>We need the transcriptome fasta file as well:</p>
-
-<p><code>wget ftp://ftp.ensembl.org/pub/release-96/fasta/homo_sapiens/cdna/Homo_sapiens.GRCh38.cdna.all.fa.gz</code></p>
-
-<h4 id="environment">Environment</h4>
-
-<p>If you are in the PILM-cluster, follow this instructions: [PRIVATE PILM]</p>
-
-<p>If you want to try from scratch, follow these <a href="/environment/conda">instructions</a> to install
-miniconda, and then type:</p>
-
-<ul>
-<li><code>conda -n create -y nf-fastrnaseq nextflow salmon multiqc fastqc</code></li>
-<li><code>conda activate nf-fastrnaseq</code></li>
-</ul>
-
-<h4 id="get-the-pipeline">Get the pipeline</h4>
-
-<p>If you are in  the  PILM-cluster, follow this instructions: PRIVATE PILM</p>
-
-<p>If you want to try from scratch, download the pipeline from GitHub: PUBLIC PILM.</p>
-
-<p>Now that you know where the file <code>paired.nf</code> is, you can run the following command to get the pipeline working:</p>
-
-<p><code>nextflow run paired.nf -w working -name tiny -with-report all-report -with-timeline all-time --outdir results  -qs 6 --reads &quot;raw/*{1,2}.fastq.gz&quot; --transcriptopme Homo_sapiens.GRCh38.cdna.all.fa.gz</code></p>
-
-            <p class="post-meta border-bottom pb-3 mb-0">Updated on 29 Dec 2018</p><nav class="pagination mt-3"><a class="nav nav-prev" href="/knowledgebase/analysis/" title="Analysis Type"><i class="ti-arrow-left mr-2"></i>Analysis Type</a>
-            <a class="nav nav-next" href="/knowledgebase/environment/" title="System Environment">System Environment<i class="ti-arrow-right ml-2"></i></a>
+            <p class="post-meta border-bottom pb-3 mb-0">Updated on 24 May 2019</p><nav class="pagination mt-3"><a class="nav nav-prev" href="/knowledgebase/resources/diy/" title="DIY:Online tutorials"><i class="ti-arrow-left mr-2"></i>DIY:Online tutorials</a>
+            <a class="nav nav-next" href="/knowledgebase/analysis/" title="Analysis Type">Analysis Type<i class="ti-arrow-right ml-2"></i></a>
             </nav></div>
       </div>
     </div>
