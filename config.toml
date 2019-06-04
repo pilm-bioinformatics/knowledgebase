@@ -21,7 +21,7 @@ privateURL = "https://github.mit.edu/pages/PILM-bioinformatics/knowledgebase/"
   dateFormat = "2 January 2006"
   home = "Home"
   logo = "PILM-MIT"
-  copyright = "The Hugo Documents are copyright © gethugothemes 2018 - Content © PILM."
+  copyright = "The Hugo Documents are copyright © gethugothemes 2019 - Content © PILM."
 
     # navigation
     [Languages.en.menu]
@@ -69,6 +69,18 @@ privateURL = "https://github.mit.edu/pages/PILM-bioinformatics/knowledgebase/"
           name = "Resources"
           URL = "/resources"
           weight = 3
+          
+          [[Languages.en.menu.main]]
+          parent = "Documents"
+          name = "Private Resources"
+          URL = "https://github.mit.edu/pages/PILM-bioinformatics/knowledgebase/resources/"
+          weight = 4
+          
+          [[Languages.en.menu.main]]
+          parent = "Documents"
+          name = "Core Organization"
+          URL = "https://github.mit.edu/pages/PILM-bioinformatics/knowledgebase/admin/"
+          weight = 5
     # banner
     [Languages.en.params.banner]
       title = "Knowledge-Base"

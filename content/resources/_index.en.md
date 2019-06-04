@@ -1,6 +1,6 @@
 ---
 title: "Resources"
-date: 2019-04-25T11:02:05-06:00
+date: 2019-04-25
 icon: "ti-panel"
 description: "Resources"
 type : "pages"

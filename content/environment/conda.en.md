@@ -1,11 +1,11 @@
 ---
 title: "conda"
-date: 2019-04-29T15:23:05-06:00
+date: 2019-04-29
 type: "post"
 weight: 1
 ---
 
-### Use pre-installed environment in eofe5
+### Use pre-installed environment in Open Mind
 
 Visit the {{% publiclink src="environment/conda/" title="private document" %}} to know where to connect.
 
