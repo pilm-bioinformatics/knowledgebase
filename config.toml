@@ -29,7 +29,7 @@ privateURL = "https://github.mit.edu/pages/PILM-bioinformatics/knowledgebase/"
       [[Languages.en.menu.main]]
         weight = 2
         name = "Faq"
-        url = "/faq"
+        url = "https://github.com/pilm-bioinformatics/knowledgebase/labels/FAQs"
       
       [[Languages.en.menu.main]]
         weight = 5
