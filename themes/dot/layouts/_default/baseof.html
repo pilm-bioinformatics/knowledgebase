@@ -5,7 +5,7 @@
         {{ if .IsHome }}
         {{ "<!-- header -->" | safeHTML }}
         <header class="hero-section overlay bg-cover banner" data-background="{{ .Site.Params.banner.image | absURL }}">
-            <div class="container mb-100">
+            <div class="container mb-10">
                 {{ "<!-- navigation -->" | safeHTML }}
                 {{ partial "navigation.html" . }}
                 {{ "<!-- /navigation -->" | safeHTML }}
