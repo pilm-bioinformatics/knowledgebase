@@ -1,6 +1,6 @@
 <head>
   <meta charset="utf-8">
-  <title>DIY:PILM tutorials</title>
+  <title>Pipelines with Nextflow</title>
 
   <meta name="generator" content="Hugo 0.55.3" />
 
@@ -129,9 +129,9 @@
               <ul class="sub-menu">
             <li class=""><a href="/knowledgebase/resources/diy/">DIY:Online tutorials</a>
             </li>
-            <li class=" active "><a href="/knowledgebase/resources/diyours/">DIY:PILM tutorials</a>
+            <li class=""><a href="/knowledgebase/resources/diyours/">DIY:PILM tutorials</a>
             </li>
-            <li class=""><a href="/knowledgebase/resources/pilm-pipelines/">Pipelines with Nextflow</a>
+            <li class=" active "><a href="/knowledgebase/resources/pilm-pipelines/">Pipelines with Nextflow</a>
             </li></ul>
               
             </li>
@@ -156,23 +156,31 @@
       </div>
       <div class="col-lg-9">
         <div class="p-5 bg-white">
-            <h2>DIY:PILM tutorials</h2>
+            <h2>Pipelines with Nextflow</h2>
             
 
-<p>We develop some tutorials to fit the PILM community, here you will find a list:</p>
+<h2 id="full-pipelines">Full pipelines</h2>
 
-<h2 id="basics">Basics -</h2>
+<p>We use <a href="https://www.nextflow.io/">Nextflow</a> to run our pipelines.</p>
 
-<ul>
-<li><a href="https://pilm-bioinformatics.github.io/pilmbc103-remote-storage-and-computing/">PILMBC103 Best practices on remote storage and computing systems</a></li>
-</ul>
+<p>Our pipelines are in our GitHub repository with the naming: <code>pipelines-ng-*</code>. The RNAseq pipeline is here: <a href="https://github.com/pilm-bioinformatics/pipelines-nf-rnaseq">https://github.com/pilm-bioinformatics/pipelines-nf-rnaseq</a></p>
 
-<h2 id="intermediate">Intermediate -</h2>
+<p>For instance, to run the RNAseq pipeline you can do the following (assuming you have nextflow already):</p>
 
-<h2 id="advance">Advance -</h2>
+<p><code>nextflow pilm-bioinformatics/pipelines-nf-rnaseq -prodile docker,test</code></p>
 
-            <p class="post-meta border-bottom pb-3 mb-0">Updated on 24 May 2019</p><nav class="pagination mt-3"><a class="nav nav-prev" href="/knowledgebase/resources/diy/" title="DIY:Online tutorials"><i class="ti-arrow-left mr-2"></i>DIY:Online tutorials</a>
-            <a class="nav nav-next" href="/knowledgebase/resources/pilm-pipelines/" title="Pipelines with Nextflow">Pipelines with Nextflow<i class="ti-arrow-right ml-2"></i></a>
+<p>If you want to run the development pipeline:</p>
+
+<p><code>nextflow pilm-bioinformatics/pipelines-nf-rnaseq -r pilm-devel -prodile docker,test</code></p>
+
+<p>To know the difference, look at the CHANGELONG file: <a href="https://github.com/pilm-bioinformatics/pipelines-nf-rnaseq/blob/pilm-devel/CHANGELOG.md">https://github.com/pilm-bioinformatics/pipelines-nf-rnaseq/blob/pilm-devel/CHANGELOG.md</a></p>
+
+<p>Our pipelines are synchronize with <a href="https://nf-co.re/">nf-core</a> pipelines, and in the majority of the cases will be the same. We updated a little bit before them but in general, the changes will be merged at some point.</p>
+
+<p>To know the differences, look at the README file.</p>
+
+            <p class="post-meta border-bottom pb-3 mb-0">Updated on 13 Jun 2019</p><nav class="pagination mt-3"><a class="nav nav-prev" href="/knowledgebase/resources/diyours/" title="DIY:PILM tutorials"><i class="ti-arrow-left mr-2"></i>DIY:PILM tutorials</a>
+            <a class="nav nav-next" href="/knowledgebase/analysis/" title="Analysis Type">Analysis Type<i class="ti-arrow-right ml-2"></i></a>
             </nav></div>
       </div>
     </div>

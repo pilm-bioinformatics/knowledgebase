@@ -33,5 +33,20 @@
 Basics -  PILMBC103 Best practices on remote storage and computing systems  Intermediate - Advance - </description>
     </item>
     
+    <item>
+      <title>Pipelines with Nextflow</title>
+      <link>https://pilm-bioinformatics.github.io/knowledgebase/resources/pilm-pipelines/</link>
+      <pubDate>Thu, 13 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://pilm-bioinformatics.github.io/knowledgebase/resources/pilm-pipelines/</guid>
+      <description>Full pipelines We use Nextflow to run our pipelines.
+Our pipelines are in our GitHub repository with the naming: pipelines-ng-*. The RNAseq pipeline is here: https://github.com/pilm-bioinformatics/pipelines-nf-rnaseq
+For instance, to run the RNAseq pipeline you can do the following (assuming you have nextflow already):
+nextflow pilm-bioinformatics/pipelines-nf-rnaseq -prodile docker,test
+If you want to run the development pipeline:
+nextflow pilm-bioinformatics/pipelines-nf-rnaseq -r pilm-devel -prodile docker,test
+To know the difference, look at the CHANGELONG file: https://github.</description>
+    </item>
+    
   </channel>
 </rss>
