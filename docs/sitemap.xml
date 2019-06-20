@@ -3,44 +3,34 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://pilm-bioinformatics.github.io/knowledgebase/environment/conda/</loc>
+    <lastmod>2019-06-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://pilm-bioinformatics.github.io/knowledgebase/resources/diy/</loc>
     <lastmod>2019-06-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pilm-bioinformatics.github.io/knowledgebase/environment/conda/</loc>
-    <lastmod>2019-04-29T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://pilm-bioinformatics.github.io/knowledgebase/analysis/rnaseq/</loc>
-    <lastmod>2018-12-29T11:02:05+06:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://pilm-bioinformatics.github.io/knowledgebase/resources/diyours/</loc>
-    <lastmod>2019-05-24T00:00:00+00:00</lastmod>
+    <lastmod>2019-06-19T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://pilm-bioinformatics.github.io/knowledgebase/resources/pilm-pipelines/</loc>
-    <lastmod>2019-06-13T00:00:00+00:00</lastmod>
+    <lastmod>2019-06-19T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://pilm-bioinformatics.github.io/knowledgebase/</loc>
-    <lastmod>2019-06-13T00:00:00+00:00</lastmod>
+    <lastmod>2019-06-19T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://pilm-bioinformatics.github.io/knowledgebase/resources/</loc>
     <lastmod>2019-04-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://pilm-bioinformatics.github.io/knowledgebase/analysis/</loc>
-    <lastmod>2018-12-29T11:02:05+06:00</lastmod>
   </url>
   
   <url>

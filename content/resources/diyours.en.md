@@ -1,6 +1,6 @@
 ---
 title: "DIY:PILM tutorials"
-date: 2019-05-24
+date: 2019-06-19
 type: "post"
 weight: 2
 ---
@@ -12,5 +12,7 @@ We develop some tutorials to fit the PILM community, here you will find a list:
 - [PILMBC103 Best practices on remote storage and computing systems](https://pilm-bioinformatics.github.io/pilmbc103-remote-storage-and-computing/)
 
 ## Intermediate - 
+
+- [PILMBC211] [Best practices on RNAseq analysis I](https://pilm-bioinformatics.github.io/pilmbc211-rnaseq-i/)
 
 ## Advance - 

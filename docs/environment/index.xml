@@ -15,11 +15,10 @@
     <item>
       <title>conda</title>
       <link>https://pilm-bioinformatics.github.io/knowledgebase/environment/conda/</link>
-      <pubDate>Mon, 29 Apr 2019 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 19 Jun 2019 00:00:00 +0000</pubDate>
       
       <guid>https://pilm-bioinformatics.github.io/knowledgebase/environment/conda/</guid>
-      <description>Use pre-installed environment in Open Mind Visit the private document to know where to connect.
-Set up your conda For macOSX
+      <description>Set up your conda For macOSX
 wget https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-x86_64.sh -O ~/miniconda.sh bash ~/miniconda.sh -b -p $HOME/miniconda export PATH=&amp;quot;$HOME/miniconda/bin:$PATH&amp;quot;  For Linux
 wget https://repo.continuum.io/miniconda/Miniconda3-3.7.0-Linux-x86_64.sh -O ~/miniconda.sh bash ~/miniconda.sh -b -p $HOME/miniconda export PATH=&amp;quot;$HOME/miniconda/bin:$PATH&amp;quot;  Configure proper channels
 conda config --add channels defaults conda config --add channels bioconda conda config --add channels conda-forge  Create a conda environment For instance, if you are interested on genome aligners, you can create an isolated environment with the following tools:</description>

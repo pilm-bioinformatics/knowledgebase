@@ -7,10 +7,22 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>The Hugo Documents are copyright © gethugothemes 2019 - Content © PILM.</copyright>
-    <lastBuildDate>Thu, 13 Jun 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 19 Jun 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://pilm-bioinformatics.github.io/knowledgebase/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>conda</title>
+      <link>https://pilm-bioinformatics.github.io/knowledgebase/environment/conda/</link>
+      <pubDate>Wed, 19 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://pilm-bioinformatics.github.io/knowledgebase/environment/conda/</guid>
+      <description>Set up your conda For macOSX
+wget https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-x86_64.sh -O ~/miniconda.sh bash ~/miniconda.sh -b -p $HOME/miniconda export PATH=&amp;quot;$HOME/miniconda/bin:$PATH&amp;quot;  For Linux
+wget https://repo.continuum.io/miniconda/Miniconda3-3.7.0-Linux-x86_64.sh -O ~/miniconda.sh bash ~/miniconda.sh -b -p $HOME/miniconda export PATH=&amp;quot;$HOME/miniconda/bin:$PATH&amp;quot;  Configure proper channels
+conda config --add channels defaults conda config --add channels bioconda conda config --add channels conda-forge  Create a conda environment For instance, if you are interested on genome aligners, you can create an isolated environment with the following tools:</description>
+    </item>
     
     <item>
       <title>DIY:Online tutorials</title>
@@ -24,50 +36,25 @@
     </item>
     
     <item>
-      <title>conda</title>
-      <link>https://pilm-bioinformatics.github.io/knowledgebase/environment/conda/</link>
-      <pubDate>Mon, 29 Apr 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://pilm-bioinformatics.github.io/knowledgebase/environment/conda/</guid>
-      <description>Use pre-installed environment in Open Mind Visit the private document to know where to connect.
-Set up your conda For macOSX
-wget https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-x86_64.sh -O ~/miniconda.sh bash ~/miniconda.sh -b -p $HOME/miniconda export PATH=&amp;quot;$HOME/miniconda/bin:$PATH&amp;quot;  For Linux
-wget https://repo.continuum.io/miniconda/Miniconda3-3.7.0-Linux-x86_64.sh -O ~/miniconda.sh bash ~/miniconda.sh -b -p $HOME/miniconda export PATH=&amp;quot;$HOME/miniconda/bin:$PATH&amp;quot;  Configure proper channels
-conda config --add channels defaults conda config --add channels bioconda conda config --add channels conda-forge  Create a conda environment For instance, if you are interested on genome aligners, you can create an isolated environment with the following tools:</description>
-    </item>
-    
-    <item>
-      <title>bulk RNAseq</title>
-      <link>https://pilm-bioinformatics.github.io/knowledgebase/analysis/rnaseq/</link>
-      <pubDate>Sat, 29 Dec 2018 11:02:05 +0600</pubDate>
-      
-      <guid>https://pilm-bioinformatics.github.io/knowledgebase/analysis/rnaseq/</guid>
-      <description>Fast RNAseq pipeline Here we show how to run a NextFlow pipeline for RNAseq from species with well annotated genes, like human or mouse.
-Raw data This is an example using a public dataset.
-We got the following links from sra-explore, a web-based app that help you to find public datasets and provides a script to download the data.
-We use the following files:
-#!/usr/bin/env bash curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR307/SRR307897/SRR307897_1.fastq.gz -o SRR307897_GSM758559_CshlLong_RnaSeq_GM12878_cell_longPolyA_1.</description>
-    </item>
-    
-    <item>
       <title>DIY:PILM tutorials</title>
       <link>https://pilm-bioinformatics.github.io/knowledgebase/resources/diyours/</link>
-      <pubDate>Fri, 24 May 2019 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 19 Jun 2019 00:00:00 +0000</pubDate>
       
       <guid>https://pilm-bioinformatics.github.io/knowledgebase/resources/diyours/</guid>
       <description> We develop some tutorials to fit the PILM community, here you will find a list:
-Basics -  PILMBC103 Best practices on remote storage and computing systems  Intermediate - Advance - </description>
+Basics -  PILMBC103 Best practices on remote storage and computing systems  Intermediate -  [PILMBC211] Best practices on RNAseq analysis I  Advance - </description>
     </item>
     
     <item>
       <title>Pipelines with Nextflow</title>
       <link>https://pilm-bioinformatics.github.io/knowledgebase/resources/pilm-pipelines/</link>
-      <pubDate>Thu, 13 Jun 2019 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 19 Jun 2019 00:00:00 +0000</pubDate>
       
       <guid>https://pilm-bioinformatics.github.io/knowledgebase/resources/pilm-pipelines/</guid>
-      <description>Full pipelines We use Nextflow to run our pipelines.
-Our pipelines are in our GitHub repository with the naming: pipelines-ng-*. The RNAseq pipeline is here: https://github.com/pilm-bioinformatics/pipelines-nf-rnaseq
-For instance, to run the RNAseq pipeline you can do the following (assuming you have nextflow already):
+      <description>Supported pipelines in OpenMind for PILM community.
+Full pipelines We use Nextflow to run our pipelines.
+Our pipelines are in our GitHub repository with the naming: pipelines-ng-*:
+ RNAseq pipeline: https://github.com/pilm-bioinformatics/pipelines-nf-rnaseq  For instance, to run the RNAseq pipeline you can do the following (assuming you have nextflow already):
 nextflow pilm-bioinformatics/pipelines-nf-rnaseq -prodile docker,test
 If you want to run the development pipeline:
 nextflow pilm-bioinformatics/pipelines-nf-rnaseq -r pilm-devel -prodile docker,test

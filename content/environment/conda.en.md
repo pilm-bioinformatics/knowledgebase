@@ -1,13 +1,9 @@
 ---
 title: "conda"
-date: 2019-04-29
+date: 2019-06-19
 type: "post"
 weight: 1
 ---
-
-### Use pre-installed environment in Open Mind
-
-Visit the {{% publiclink src="environment/conda/" title="private document" %}} to know where to connect.
 
 ### Set up your conda
 

@@ -1,15 +1,19 @@
 ---
 title: "Pipelines with Nextflow"
-date: 2019-06-13
+date: 2019-06-19
 type: "post"
 weight: 3
 ---
+
+{{% publiclink src="resources/openmind-pipelines/" title="Supported pipelines" %}} in OpenMind for PILM community.
 
 ## Full pipelines
 
 We use [Nextflow](https://www.nextflow.io/) to run our pipelines.
 
-Our pipelines are in our GitHub repository with the naming: `pipelines-ng-*`. The RNAseq pipeline is here: https://github.com/pilm-bioinformatics/pipelines-nf-rnaseq
+Our pipelines are in our GitHub repository with the naming: `pipelines-ng-*`:
+
+* RNAseq pipeline: https://github.com/pilm-bioinformatics/pipelines-nf-rnaseq
 
 For instance, to run the RNAseq pipeline you can do the following (assuming you have nextflow already):
 
