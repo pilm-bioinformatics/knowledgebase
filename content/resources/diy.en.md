@@ -1,6 +1,6 @@
 ---
 title: "DIY:Online tutorials"
-date: 2019-06-11
+date: 2019-06-26
 type: "post"
 weight: 1
 ---
@@ -27,6 +27,8 @@ If you like any of you see below, please send them an email thanking them for th
 
 ## Web-based tools
 
-5. [g:Profiler – a web server for functional enrichment analysis and conversions of gene lists](https://biit.cs.ut.ee/gprofiler/): you need to go to Advance options and click on Custom in *statistical domain scope*, then you can paste the background list
+1. [g:Profiler – a web server for functional enrichment analysis and conversions of gene lists](https://biit.cs.ut.ee/gprofiler/): you need to go to Advance options and click on Custom in *statistical domain scope*, then you can paste the background list
 
-6. [Gestalt](http://www.webgestalt.org/#)
+2. [Gestalt](http://www.webgestalt.org/#)
+
+3. [ChEA](https://amp.pharm.mssm.edu/chea3/) for TF enrichment analysis
