@@ -10,6 +10,7 @@ If you like any of you see below, please send them an email thanking them for th
 
 1. [Training team at Harvard Chan Bioinformatics Core](http://bioinformatics.sph.harvard.edu/training/): __hbctraining(at)hsph.harvard.edu__
 2. Jeff Oliver: __jcoliver(at)email.arizona.edu__
+3. Sean Davis: twitter: @seandavis12 - https://seandavi.github.io
 
 ## Basics
 
@@ -18,6 +19,8 @@ If you like any of you see below, please send them an email thanking them for th
 2. [Introduction to R](https://github.com/hbctraining/Intro-to-R) - training team at Harvard Chan Bioinformatics Core.
 
 3. [Introduction to tidyverse](https://jcoliver.github.io/learn-r/012-intro-tidyverse.html) - Jeff Oliver
+
+4. [Introduction to R and Bioc](https://seandavi.github.io/ITR/) - Sean Davis
 
 ## Analysis
 
